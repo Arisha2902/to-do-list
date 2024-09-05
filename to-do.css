@@ -97,15 +97,11 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
 }
-@media(width:375px){
-  .todo{
-    padding-left:15px;
-  }
+
   #input-box{
   width:120px;  
-  }
-}
- @media(width:360px){ 
+  } 
+ @media(max-width:375px){ 
   .row{
    margin:0px; 
   width:287px;  }
@@ -131,18 +127,7 @@ width:20px; }
   }
   }
 
-@media(width:390px){
-  .container{
-    padding:20px;
-  }  
-  .todo{
-    padding-left: 10px;}
-  .row{
-width: 210px;}
-  #input-box{
-    width: 170px;
- }
-}
+
   @media (max-width:414px ) and (min-width:412px){
     .container{
       padding-left: 20px;
@@ -150,12 +135,4 @@ width: 210px;}
     }
   }
 
-  @media(width:320px){
-    .todo{
-      padding-left: 10px; }
-    .row{
-      padding-left: 0px;
-      width: 190px;    }
-    #input-box{
-      width: 150px;    }
-    }
+ 
